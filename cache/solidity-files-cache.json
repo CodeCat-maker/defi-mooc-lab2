@@ -1,0 +1,81 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/wangzepeng/代码/nodejs/defi-mooc-lab2/contracts/LiquidationOperator.sol": {
+      "lastModificationDate": 1728247246064,
+      "contentHash": "f626933f506c6177700aa84720639ac4",
+      "sourceName": "contracts/LiquidationOperator.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "IERC20",
+        "ILendingPool",
+        "IUniswapV2Callee",
+        "IUniswapV2Factory",
+        "IUniswapV2Pair",
+        "IWETH",
+        "LiquidationOperator"
+      ]
+    },
+    "/Users/wangzepeng/代码/nodejs/defi-mooc-lab2/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1728242158255,
+      "contentHash": "cc4777addd464ea56fa35b1c45df0591",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    }
+  }
+}

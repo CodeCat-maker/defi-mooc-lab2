@@ -18,8 +18,9 @@ module.exports = {
       initialBaseFeePerGas: 0,
       accounts: {
         mnemonic: "swap swap swap swap swap swap swap swap swap swap swap swap"
-      },
+      }
     },
+
   },
   solidity: {
     version: "0.8.7",
